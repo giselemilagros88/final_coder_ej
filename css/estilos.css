@@ -1,0 +1,70 @@
+/*
+esto es un comentario multilinea en CSS
+CSS:  HOJAS DE ESTILOS EN CASCADA
+
+SU SINTAXIS 
+
+selector{
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+    n...
+}
+
+selectores:
+etiqueta: el selector menos especifico
+class : el selector de clase, es más especifico que el de etiqueta y me ayuda a clasificar distintos elementos de html y aplicarles el mismo estilo, lo llamo al selector de class a traves del punto
+id: el selector con más especificidad, porque puedo poner un mismo id a un unico elemento, NO puedo repetir los nombres de los id, los id se los llama por la #
+*/
+
+/*
+.colorFondoGris{
+   /* background-color: rgb(37, 37, 37)!important;*/
+  /* background-color: rgb(37, 37, 37);*/
+   /* color: white;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+html{
+   /* font-size:16px;
+    font-size: 22px;*/
+}
+.colorFondoRosa{
+    background-color:pink;
+}
+.colorFuenteBlanca{
+    color: white;
+}
+
+p{
+    background-color: gray;
+    /*los pixeles son tamaños absolutos, no cambian*/
+    font-size: 30px; /*el valor por defecto de la fuente de un navegador es la que pone el user, son 16px*/
+    font-size:2rem; /*REM- es una unidad de medida relativa 1rem = 16px, mientras tanto el user no cambie la configuracion de la fuente en el navegador*/
+    font-weight: 700;/*bold-700 regular--400 semibold 600*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#parrafoPrincipal{
+    background-color: rgb(37, 37, 37);
+}
+.main .contenidoPrincipal .colorFondoGris{
+    background-color: rgb(37, 37, 37);
+}
+.colorFondoVioleta{
+    background-color: rgb(86, 2, 86);
+}
+
+.colorFuenteNegra{
+    color: black;
+}
+
+/*ESTILOS DE GALERIA*/
+.hijo{
+    color:blue;
+}
+.padre{
+    color:red;
+}
+
+
